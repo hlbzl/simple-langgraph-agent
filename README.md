@@ -5,7 +5,7 @@
 ## 功能特性
 
 - 🤖 基于 LangGraph 的状态图工作流
-- 🧠 集成 DeepSeek 大语言模型
+- 🧠 集成大语言模型
 - 🔧 支持多种工具：搜索、计算、时间查询、终端命令
 - 📝 详细的执行过程日志
 - 🔄 智能的工具调用管理
@@ -17,7 +17,7 @@ langgraph_agent/
 ├── main.py              # 项目入口
 ├── agent.py             # 智能体包装类
 ├── graph.py             # LangGraph 状态图定义
-├── deepseek_llm.py      # DeepSeek 模型集成
+├── deepseek_llm.py      # DeepSeek 模型集成(可用其他模型）
 ├── tools.py             # 工具定义
 ├── .env.example         # 环境变量示例
 └── README.md            # 项目说明
@@ -68,7 +68,6 @@ python main.py "帮我在桌面创建一个test文件"
 - Python 3.8+
 - LangGraph
 - LangChain
-- DeepSeek API
 - Tavily API (可选)
 
 ## 许可证
