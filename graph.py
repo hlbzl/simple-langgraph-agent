@@ -74,7 +74,7 @@ class LangGraphAgent:
                 print(f"  [{i}] 🔧 工具({msg.tool_call_id}): {msg.content[:100]}{'...' if len(msg.content) > 100 else ''}")
         
         # 构建系统提示词
-        system_prompt =self._build_system_prompt()
+        system_prompt = self._build_system_prompt()
         print(f"\n📝 系统提示词长度: {len(system_prompt)} 字符")
         
         # 构建完整的消息列表
